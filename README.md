@@ -14,7 +14,7 @@ Prerequisites
 Before running the script, ensure you have all the required libraries installed. Use the following command:
 
 
-**pip install numpy pandas scikit-learn matplotlib seaborn**
+**"pip install numpy pandas scikit-learn matplotlib seaborn"**
 
 These dependencies are required for data handling, anomaly detection, and visualization.
 
@@ -23,7 +23,8 @@ These dependencies are required for data handling, anomaly detection, and visual
 Execute the fraud detection Python script to identify fraudulent transactions:
 
 
-**python fraud_detection.py**
+**"python fraud_detection.py"**
+
 
 **3.Features Implemented in the Script**
 

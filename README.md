@@ -25,19 +25,19 @@ python fraud_detection.py
 
 **3.Features Implemented in the Script**
 
-**i)Anomaly Detection:** Uses Isolation Forest to detect potential fraudulent transactions.
+  **i) Anomaly Detection:** Uses Isolation Forest to detect potential fraudulent transactions.
 
-**ii)Confusion Matrix & ROC Curve:** Evaluates the model performance visually.
+  **ii)Confusion Matrix & ROC Curve:** Evaluates the model performance visually.
 
-**iii)Transaction Logging:** Saves logs of flagged fraudulent transactions for auditing.
+  **iii)Transaction Logging:** Saves logs of flagged fraudulent transactions for auditing.
 
 **4. Understanding the Output**
 
-**Confusion Matrix:** Provides a summary of true/false positives and negatives.
+  **Confusion Matrix:** Provides a summary of true/false positives and negatives.
 
-**ROC Curve****: Plots the trade-off between true positive rate and false positive rate.
+  **ROC Curve****: Plots the trade-off between true positive rate and false positive rate.
 
-**Logs:** Stores detected fraud transactions in a separate file.
+  **Logs:** Stores detected fraud transactions in a separate file.
 
 **Goal**
 This project allows you to experiment with fraud detection techniques without fear of errors. If issues arise, debug the script or reinstall dependencies. The aim is to gain hands-on experience in AI-based fraud detection.

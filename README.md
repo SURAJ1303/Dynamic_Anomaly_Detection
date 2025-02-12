@@ -1,86 +1,26 @@
-Dynamic Anomaly Detection in Banking
-
+Setting Up and Running Fraud Detection
 Prerequisites
-
-Python 3.8+ installed on your system.
-
-Required dependencies listed in requirements.txt.
-
-Basic familiarity with Python, Scikit-learn, and data analysis.
-
-Steps to Set Up and Run the Project
-
+Python installed on your system
+Basic familiarity with Python and machine learning concepts
+Required libraries installed (detailed in the installation section)
+Steps to Run the Fraud Detection System
 1. Install Dependencies
+Before running the script, ensure you have all the required libraries installed. Use the following command:
+pip install numpy pandas scikit-learn matplotlib seaborn
+These dependencies are required for data handling, anomaly detection, and visualization.
 
-Before running the fraud detection script, install the required libraries:
-
-pip install -r requirements.txt
-
-2. Running the Fraud Detection Script
-
-Open the Project Directory
-
-Navigate to the extracted project folder:
-
-cd Dynamic_Anomaly_Detection
-
-Execute the Script
-
-Run the anomaly detection model:
-
+2. Run the Fraud Detection Script
+Execute the fraud detection Python script to identify fraudulent transactions:
 python fraud_detection.py
-
-3. Understanding the Features
-
-Fraud Detection using Isolation Forest
-
-Identifies fraudulent transactions using an Isolation Forest model.
-
-Assigns anomaly scores and flags suspicious activities.
-
-Generating a Confusion Matrix and ROC Curve
-
-Evaluates the model’s performance using a confusion matrix.
-
-Plots an ROC curve to visualize sensitivity vs specificity.
-
-Logging Fraudulent Transactions
-
-Stores detected fraud cases in fraudulent_logs.csv for further analysis.
-
-4. Exploring the Data
-
-You can inspect the dataset and logs:
-
-import pandas as pd
-fraud_logs = pd.read_csv("fraudulent_logs.csv")
-print(fraud_logs.head())
-
-Visualize fraudulent transactions:
-
-import matplotlib.pyplot as plt
-import seaborn as sns
-sns.histplot(fraud_logs['amount'], bins=30, kde=True)
-plt.title("Fraudulent Transaction Amounts")
-plt.show()
-
-5. Submitting Updates
-
-Save your changes and push them to the repository:
-
-git add .
-git commit -m "Updated fraud detection script"
-git push origin main
-
-6. Troubleshooting and Support
-
-Check dependencies: Ensure all required libraries are installed.
-
-Verify dataset format: The script expects a properly formatted CSV file.
-
-Ask for help: If stuck, experiment and refine the code. You can always reset your workspace.
-
+ Features Implemented in the Script
+Anomaly Detection: Uses Isolation Forest to detect potential fraudulent transactions.
+Confusion Matrix & ROC Curve: Evaluates the model performance visually.
+Transaction Logging: Saves logs of flagged fraudulent transactions for auditing.
+4. Understanding the Output
+Confusion Matrix: Provides a summary of true/false positives and negatives.
+ROC Curve: Plots the trade-off between true positive rate and false positive rate.
+Logs: Stores detected fraud transactions in a separate file.
 Goal
+This project allows you to experiment with fraud detection techniques without fear of errors. If issues arise, debug the script or reinstall dependencies. The aim is to gain hands-on experience in AI-based fraud detection.
 
-The objective is to get hands-on experience with anomaly detection in banking transactions. Experimentation is key, and mistakes are part of the learning process!
-
+If you have any doubts or run into errors, feel free to ask for help.

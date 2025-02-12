@@ -1,4 +1,5 @@
-Setting Up and Running Fraud Detection
+**Setting Up and Running Fraud Detection**
+
 Prerequisites
 Python installed on your system
 Basic familiarity with Python and machine learning concepts

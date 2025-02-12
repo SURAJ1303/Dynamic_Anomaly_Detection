@@ -7,4 +7,6 @@ This project uses **AI-based anomaly detection** to identify fraudulent transact
 - Saves logs of fraudulent transactions
 
 ## How to Run:
-1. Install dependencies:  
+1. Install dependencies:
+2.  Run the fraud detection script:  
+
